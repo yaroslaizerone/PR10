@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#516DFF"
+    >
+    <LinearLayout
+
+        android:background="@drawable/radius_button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="73px">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sq"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Моё смарт-устройство"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/radius_button_2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="73px">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:background="@drawable/eq"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.3 KM"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="175dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/radius_button_2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="73px">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qeq"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="59 KCAL"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/radius_button_2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="73px">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/trt"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 MIN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="160dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/radius_button_2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="73px">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/eqw"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1583 STEPS"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@drawable/radius_button_3"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/wifi"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="62 KG"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp">
+    </TextView>
+
+</LinearLayout>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@drawable/grafic"
+            android:layout_marginLeft="5dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@drawable/radius_button_3"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/heart"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="82 BMP"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp">
+            </TextView>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:background="@drawable/graph2"
+
+            android:layout_marginTop="10dp">
+
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
